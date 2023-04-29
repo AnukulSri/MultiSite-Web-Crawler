@@ -5,8 +5,6 @@ import requests
 import base64
 from streamlit_option_menu import option_menu
 import mysql.connector
-import plotly_express as px
-import matplotlib.pyplot as plt
 
 
 
@@ -91,7 +89,7 @@ if selected == "Amazon":
 
     if btn:
 
-        list_of_tup = list(zip(titles1,prices1))
+        #list_of_tup = list(zip(titles1,prices1))
         for j in range(0,len(titles1)):
            # print(st.markdown(f"{titles[j]}"))
            #st.markdown(f"<h1 style =color:white>{titles[j]}</h1>",unsafe_allow_html=True)
